@@ -47,17 +47,16 @@
     },
     "libogg": {
       "inputs": {
-        "flake-utils": "flake-utils_2",
         "libogg_src": "libogg_src",
         "nixpkgs": "nixpkgs",
         "tinycmmc": "tinycmmc"
       },
       "locked": {
-        "lastModified": 1660917259,
-        "narHash": "sha256-fb9C3uRcKzUFvNZHM3vTVBPFCC3KSz7Nar5fZzmSjfw=",
+        "lastModified": 1660923789,
+        "narHash": "sha256-+DPxwLvI7MtJEeUUEn5xOHmZjttCuiJjZ+0bgxy3by0=",
         "owner": "grumnix",
         "repo": "libogg-win32",
-        "rev": "117b4ab7e77b883e350eb2d90ac1a9d2fa1e2472",
+        "rev": "6cafd6a3608db0b47b8bcd3e8b0f1bda4c1f46f0",
         "type": "github"
       },
       "original": {
@@ -128,17 +127,16 @@
     },
     "opus": {
       "inputs": {
-        "flake-utils": "flake-utils_3",
         "nixpkgs": "nixpkgs_3",
         "opus_src": "opus_src",
         "tinycmmc": "tinycmmc_2"
       },
       "locked": {
-        "lastModified": 1660920881,
-        "narHash": "sha256-ua8luIMuId3XKxoNiIJXKn9HhMsQcutmZoqEt/ErVNA=",
+        "lastModified": 1660923895,
+        "narHash": "sha256-6y5gWCTzoSb0BGsK+If79hoxV/4TFKmQ39aRsz1QL0E=",
         "owner": "grumnix",
         "repo": "opus-win32",
-        "rev": "d5cc219311e4e2be545221d027194379ea6794b5",
+        "rev": "c2ee58f8908bcc677ed854c548d3f662293e1cac",
         "type": "github"
       },
       "original": {
@@ -173,7 +171,6 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "libogg": "libogg",
         "nixpkgs": "nixpkgs_2",
         "opus": "opus",
@@ -183,10 +180,7 @@
     },
     "tinycmmc": {
       "inputs": {
-        "flake-utils": [
-          "libogg",
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils",
         "nixpkgs": [
           "libogg",
           "nixpkgs"
@@ -208,10 +202,7 @@
     },
     "tinycmmc_2": {
       "inputs": {
-        "flake-utils": [
-          "opus",
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils_2",
         "nixpkgs": [
           "opus",
           "nixpkgs"
@@ -233,9 +224,7 @@
     },
     "tinycmmc_3": {
       "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils_3",
         "nixpkgs": [
           "nixpkgs"
         ]
