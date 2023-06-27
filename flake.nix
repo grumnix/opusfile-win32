@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
 
     tinycmmc.url = "github:grumbel/tinycmmc";
     tinycmmc.inputs.nixpkgs.follows = "nixpkgs";
@@ -9,7 +9,12 @@
     opusfile_src.flake = false;
 
     libogg.url = "github:grumnix/libogg-win32";
+    libogg.inputs.nixpkgs.follows = "nixpkgs";
+    libogg.inputs.tinycmmc.follows = "tinycmmc";
+
     opus.url = "github:grumnix/opus-win32";
+    opus.inputs.nixpkgs.follows = "nixpkgs";
+    opus.inputs.tinycmmc.follows = "tinycmmc";
   };
 
   outputs = { self, nixpkgs, tinycmmc, opusfile_src, libogg, opus }:
