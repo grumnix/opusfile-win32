@@ -5,11 +5,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1681202837,
-        "narHash": "sha256-H+Rh19JDwRtpVPAWp64F+rlEtxUWBAQW28eAi3SRSzg=",
+        "lastModified": 1701680307,
+        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "cfacdce06f30d2b68473a46042957675eebb3401",
+        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
         "type": "github"
       },
       "original": {
@@ -56,16 +56,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1687729501,
-        "narHash": "sha256-mTLkMePoHUWvTCf3NuKbeYEea/tsikSIKBWwb9OfRr4=",
+        "lastModified": 1701539137,
+        "narHash": "sha256-nVO/5QYpf1GwjvtpXhyxx5M3U/WN0MwBro4Lsk+9mL0=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "35130d4b4f0b8c50ed2aceb909a538c66c91d4a0",
+        "rev": "933d7dc155096e7575d207be6fb7792bc9f34f6d",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-23.05",
+        "ref": "nixos-23.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -81,11 +81,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1660923895,
-        "narHash": "sha256-6y5gWCTzoSb0BGsK+If79hoxV/4TFKmQ39aRsz1QL0E=",
+        "lastModified": 1687871397,
+        "narHash": "sha256-sSYBCDgBIa4CPJ66YNwlLvOnIAIDyyyDdeAfyPR9j0g=",
         "owner": "grumnix",
         "repo": "opus-win32",
-        "rev": "c2ee58f8908bcc677ed854c548d3f662293e1cac",
+        "rev": "d7ed93fefb9834979987b948aa6b55acbc111172",
         "type": "github"
       },
       "original": {
@@ -109,6 +109,7 @@
     "opusfile_src": {
       "flake": false,
       "locked": {
+        "lastModified": 1593226173,
         "narHash": "sha256-UEoOyY9DM5lINTAHIfSRK5+o622pIK2ObQ00swIcM40=",
         "type": "tarball",
         "url": "https://downloads.xiph.org/releases/opus/opusfile-0.12.tar.gz"
@@ -150,11 +151,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1684952066,
-        "narHash": "sha256-yS8/+TOL2OA7f/RQs1Zr20mmlPFIVvFOgWShLAQvH8w=",
+        "lastModified": 1701699760,
+        "narHash": "sha256-L0vwqcTQFOiFfRY90nBgDuUsVOYS0+S8BfVxFvaFBNM=",
         "owner": "grumbel",
         "repo": "tinycmmc",
-        "rev": "01fe277570a290837726de6eb3c16d617bfda28c",
+        "rev": "9a51e13802d930feb7261ba8876940659b258cb7",
         "type": "github"
       },
       "original": {
